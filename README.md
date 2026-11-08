@@ -34,3 +34,4 @@ else:
             print("大了")
         else:
             print("小了") 
+day2打卡
