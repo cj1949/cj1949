@@ -15,4 +15,22 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-print（“hello world ”）
+day1 print（“hello world ”）
+day2 import  random
+num = random.randint(1, 10)
+guess_num=int(input("蒙数："))
+if guess_num == num:
+    print("恭喜")
+else:
+    if  guess_num >=num:
+        print("数大了")
+    else:
+        print("数小了")
+
+    guess_num=int(input("再猜:"))
+
+    if guess_num==num:
+        if guess_num  >=num:
+            print("大了")
+        else:
+            print("小了") 
