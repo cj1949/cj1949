@@ -16,6 +16,7 @@ Here are some ideas to get you started:
 -->
 
 day1 print（“hello world ”）
+day1打卡
 day2 import  random
 num = random.randint(1, 10)
 guess_num=int(input("蒙数："))
