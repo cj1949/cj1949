@@ -52,3 +52,48 @@ for i in range(1,21):
         print(f"不够剩{money},不发了")
         break
 day3打卡
+
+num=5000000
+name=None
+name=input("输名字:")
+def  query(show_header):
+    if show_header:
+        print("------余额------")
+    print(f"{name},你好，余额剩:{num}元")
+def saving(num):
+    global money
+    money += num
+    print("-----存款-----")
+    print(f"{name},你好，存款{num}成功")
+    query(False)
+def  get_money(num):
+    global money
+    money -= num
+    print("-----取款-----")
+    print(f"{name}你好取款{num}成功")
+    query(False)
+def main ():
+    print("----主菜单----")
+    print(f"{name},你好欢迎请选择操作")
+    print("查余额\t[输1]")
+    print("存款\t[输2]")
+    print("取款\t[输3]")
+    print("退出\t[输4]")
+    return  input("输入选择：")
+while  True:
+    keyboard_input = main()
+    if keyboard_input == "1":
+        query(True)
+        continue
+    elif keyboard_input == "2":
+        num = int(input("存多少输入："))
+        saving(num)
+        continue
+    elif keyboard_input == "3":
+        num = int(input("取多少输入："))
+        get_money(num)
+        continue
+    else:
+        print("退出了")
+        break
+day4打卡
