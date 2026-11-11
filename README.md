@@ -97,3 +97,6 @@ while  True:
         print("退出了")
         break
 day4打卡
+
+print("World is beautiful")
+day5打卡
