@@ -100,3 +100,9 @@ day4打卡
 
 print("World is beautiful")
 day5打卡
+
+print(f"a大于A，结果：{"a">"A"})
+day6打卡
+
+print(f"ab”大于“a”，结果：{"ab">"a"})
+day7打卡
