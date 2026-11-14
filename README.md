@@ -106,3 +106,6 @@ day6打卡
 
 print(f"ab”大于“a”，结果：{"ab">"a"})
 day7打卡
+
+print(f“a”小于“ab”,结果：{"a"<"ab"})
+day8
