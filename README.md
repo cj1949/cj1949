@@ -109,3 +109,6 @@ day7打卡
 
 print(f“a”小于“ab”,结果：{"a"<"ab"})
 day8
+
+print(f“a”小于“ab”,结果：{"a"<"ab"})
+day9
