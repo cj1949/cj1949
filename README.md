@@ -115,3 +115,6 @@ day9
 
 fr = open("D:/bill.txt","r", encoding=“UTF-8”）
 day10
+
+fr = open("D:/bill.txt","r", encoding=“UTF-8”）
+day11
