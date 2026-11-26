@@ -139,3 +139,5 @@ print(f“a”小于“ab”,结果：{"a"<"ab"})
 day16
 print(f“a”小于“ab”,结果：{"a"<"ab"})
 day17
+print(f“a”小于“ab”,结果：{"a"<"ab"})
+day18
