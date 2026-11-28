@@ -141,3 +141,10 @@ print(f“a”小于“ab”,结果：{"a"<"ab"})
 day17
 print(f“a”小于“ab”,结果：{"a"<"ab"})
 day18
+
+while  True:
+    keyboard_input = main()
+    if keyboard_input == "1":
+        query(True)
+        continue
+day19        
